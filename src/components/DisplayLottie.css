@@ -1,0 +1,12 @@
+
+.lottie_player{
+    width: 650px;
+    height: 650px;
+}
+@media screen and (max-width:700px) {
+    .lottie_player{
+        width: 400px;
+        height: 400px;
+    }
+    
+}
