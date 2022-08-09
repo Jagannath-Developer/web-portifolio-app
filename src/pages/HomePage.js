@@ -3,16 +3,17 @@ import DisplayLottie from '../components/DisplayLottie'
 import lottieURL from '../assets/programming_computer.json';
 import { Link } from 'react-router-dom';
 import '../components/DisplayLottie.css'
+import Footers from '../web/Footer';
 
 export default function HomePage() {
   return (
-    <section id="header" className='d-flex align-items-center'>
+    <section id="header" className='d-flex  align-items-center'>
       <div className='container p-4'>
         <div className="row">
           <div className="col-10 max-auto">
             <div className="row">
               {/* left div with text  */}
-              <div className='col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column '>
+              <div className='col-md-6  pt-lg-0 order-2 order-lg-1 d-flex justify-content-center   flex-column text-bg-bol'>
                 <h1>Grow your business with
                     <strong className='text-primary mx-2'>AJ Studio</strong>
                 </h1>
@@ -34,6 +35,7 @@ export default function HomePage() {
         </div>
 
       </div>
+      
     </section>
   )
 }

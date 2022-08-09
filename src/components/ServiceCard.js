@@ -9,7 +9,7 @@ export default function ServiceCard(props) {
                         <h5 className="card-title text-primary text-capitalize fw-bold">{props.title}</h5>
                         <hr/>
                         <p className="card-text">{props.desc}</p>
-                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                        <a href="#post" className="btn btn-primary">Go somewhere</a>
                     </div>
             </div>
         </div>
