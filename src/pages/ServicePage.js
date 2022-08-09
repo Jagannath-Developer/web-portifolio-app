@@ -6,7 +6,7 @@ export default function ServicePage() {
   return (
     <div className='container text-center mt-4'>
       <h1>Our Services</h1>
-      <div className='d-flex flex-wrap'>
+      <div className='d-flex flex-wrap justify-content-center align-content-center'>
         {
           service.map((item,i)=>(
             <div key={i} className="m-4">
